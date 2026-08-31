@@ -1,0 +1,762 @@
+[
+  {
+    "text": "I am not what happened to me, I am what I choose to become.",
+    "author": "Carl Jung"
+  },
+  {
+    "text": "If you can't fly then run, if you can't run then walk, if you can't walk then crawl, but whatever you do you have to keep moving forward.",
+    "author": "Martin Luther King Jr."
+  },
+  {
+    "text": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+    "author": "Will Durant"
+  },
+  {
+    "text": "Entrepreneurs are great at dealing with uncertainty and also very good at minimizing risk. That's the classic entrepreneur.",
+    "author": "Mohnish Pabrai"
+  },
+  {
+    "text": "The only thing standing between you and your goal is the story you keep telling yourself.",
+    "author": "Jordan Belfort"
+  },
+  {
+    "text": "Knowing is not enough; we must apply. Willing is not enough; we must do.",
+    "author": "Johann Wolfgang von Goethe"
+  },
+  {
+    "text": "Never give up on a dream just because of the time it will take to accomplish it. The time will pass anyway.",
+    "author": "Earl Nightingale"
+  },
+  {
+    "text": "Every child is an artist. The problem is how to remain an artist once he grows up.",
+    "author": "Pablo Picasso"
+  },
+  {
+    "text": "When something is important enough, you do it even if the odds are not in your favor.",
+    "author": "Elon Musk"
+  },
+  {
+    "text": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs"
+  },
+  {
+    "text": "You do not find the happy life. You make it.",
+    "author": "Camilla Eyring Kimball"
+  },
+  {
+    "text": "Never let your head hang down. Never give up and sit down and grieve.",
+    "author": "Satchel Paige"
+  },
+  {
+    "text": "Done is better than perfect.",
+    "author": "Sheryl Sandberg"
+  },
+  {
+    "text": "The best way out is always through.",
+    "author": "Robert Frost"
+  },
+  {
+    "text": "I find that the harder I work, the more luck I seem to have.",
+    "author": "Thomas Jefferson"
+  },
+  {
+    "text": "Imagine your life is perfect in every respect; what would it look like?",
+    "author": "Brian Tracy"
+  },
+  {
+    "text": "You have to believe in yourself when no one else does.",
+    "author": "Serena Williams"
+  },
+  {
+    "text": "Most people fail in life not because they aim too high and miss, but because they aim too low and hit.",
+    "author": "Les Brown"
+  },
+  {
+    "text": "You may have to fight a battle more than once to win it.",
+    "author": "Margaret Thatcher"
+  },
+  {
+    "text": "You may encounter many defeats, but you must not be defeated.",
+    "author": "Maya Angelou"
+  },
+  {
+    "text": "Success is not the key to happiness. Happiness is the key to success.",
+    "author": "Albert Schweitzer"
+  },
+  {
+    "text": "I fear not the man who has practiced 10,000 kicks once, but I fear the man who has practiced one kick 10,000 times.",
+    "author": "Bruce Lee"
+  },
+  {
+    "text": "Well done is better than well said.",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "text": "Hating people is like burning down your own house to get rid of a rat.",
+    "author": "Harry Emerson Fosdick"
+  },
+  {
+    "text": "The longer I live, the more beautiful life becomes.",
+    "author": "Frank Lloyd Wright"
+  },
+  {
+    "text": "Do not be embarrassed by your failures, learn from them and start again.",
+    "author": "Richard Branson"
+  },
+  {
+    "text": "The only place where success comes before work is in the dictionary.",
+    "author": "Vidal Sassoon"
+  },
+  {
+    "text": "Fortune favors the bold.",
+    "author": "Virgil"
+  },
+  {
+    "text": "I like criticism. It makes you strong.",
+    "author": "LeBron James"
+  },
+  {
+    "text": "Champions keep playing until they get it right.",
+    "author": "Billie Jean King"
+  },
+  {
+    "text": "To live is the rarest thing in the world. Most people exist, that is all.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "text": "No act of kindness, no matter how small, is ever wasted.",
+    "author": "Aesop"
+  },
+  {
+    "text": "The purpose of our lives is to be happy.",
+    "author": "Dalai Lama"
+  },
+  {
+    "text": "The only way of finding the limits of the possible is by going beyond them into the impossible.",
+    "author": "Arthur C. Clarke"
+  },
+  {
+    "text": "The only people with whom you should try to get even are those who have helped you.",
+    "author": "John E. Southard"
+  },
+  {
+    "text": "Tough times never last, but tough people do.",
+    "author": "Robert H. Schuller"
+  },
+  {
+    "text": "It's not that I'm so smart, it's just that I stay with problems longer.",
+    "author": "Albert Einstein"
+  },
+  {
+    "text": "The people who are crazy enough to think they can change the world are the ones who do.",
+    "author": "Apple"
+  },
+  {
+    "text": "Discipline equals freedom.",
+    "author": "Jocko Willink"
+  },
+  {
+    "text": "I hated every minute of training, but I said, 'Don't quit. Suffer now and live the rest of your life as a champion.'",
+    "author": "Muhammad Ali"
+  },
+  {
+    "text": "The best way to predict the future is to invent it.",
+    "author": "Alan Kay"
+  },
+  {
+    "text": "Opportunities don't happen. You create them.",
+    "author": "Chris Grosser"
+  },
+  {
+    "text": "Act as if what you do makes a difference. It does.",
+    "author": "William James"
+  },
+  {
+    "text": "Work hard in silence, let success make the noise.",
+    "author": "Frank Ocean"
+  },
+  {
+    "text": "You only live once, but if you do it right, once is enough.",
+    "author": "Mae West"
+  },
+  {
+    "text": "It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult.",
+    "author": "Seneca"
+  },
+  {
+    "text": "A journey of a thousand miles begins with a single step.",
+    "author": "Lao Tzu"
+  },
+  {
+    "text": "It always seems impossible until it's done.",
+    "author": "Nelson Mandela"
+  },
+  {
+    "text": "The best revenge is massive success.",
+    "author": "Frank Sinatra"
+  },
+  {
+    "text": "The road to success and the road to failure are almost exactly the same.",
+    "author": "Colin R. Davis"
+  },
+  {
+    "text": "The distance between insanity and genius is measured only by success.",
+    "author": "Bruce Feirstein"
+  },
+  {
+    "text": "Nothing in this world can take the place of persistence.",
+    "author": "Calvin Coolidge"
+  },
+  {
+    "text": "A goal without a plan is just a wish.",
+    "author": "Antoine de Saint-Exupery"
+  },
+  {
+    "text": "When you want to succeed as bad as you want to breathe, then you'll be successful.",
+    "author": "Eric Thomas"
+  },
+  {
+    "text": "Carry out a random act of kindness, with no expectation of reward.",
+    "author": "Princess Diana"
+  },
+  {
+    "text": "If you set your goals ridiculously high and it's a failure, you will fail above everyone else's success.",
+    "author": "James Cameron"
+  },
+  {
+    "text": "Do what you can, with what you have, where you are.",
+    "author": "Theodore Roosevelt"
+  },
+  {
+    "text": "Every moment is a fresh beginning.",
+    "author": "T.S. Eliot"
+  },
+  {
+    "text": "It's not what we do once in a while that shapes our lives. It's what we do consistently.",
+    "author": "Tony Robbins"
+  },
+  {
+    "text": "You learn more from failure than from success. Don't let failure stop you.",
+    "author": "Unknown"
+  },
+  {
+    "text": "Go for it now. The future is promised to no one.",
+    "author": "Wayne Dyer"
+  },
+  {
+    "text": "You miss 100% of the shots you don't take.",
+    "author": "Wayne Gretzky"
+  },
+  {
+    "text": "The best time to plant a tree was 20 years ago. The second best time is now.",
+    "author": "Chinese Proverb"
+  },
+  {
+    "text": "You just can't beat the person who never gives up.",
+    "author": "Babe Ruth"
+  },
+  {
+    "text": "What defines us is how well we rise after falling.",
+    "author": "Lionel from Gladiator"
+  },
+  {
+    "text": "The greater the difficulty, the more glory in surmounting it.",
+    "author": "Epicurus"
+  },
+  {
+    "text": "Don't watch the clock; do what it does. Keep going.",
+    "author": "Sam Levenson"
+  },
+  {
+    "text": "Never give in. Never, never, never, never — in nothing, great or small, large or petty — never give in.",
+    "author": "Winston Churchill"
+  },
+  {
+    "text": "In seeking wisdom thou art wise; in imagining that thou hast attained it - thou art a fool.",
+    "author": "Philip Stanhope"
+  },
+  {
+    "text": "The secret of getting ahead is getting started.",
+    "author": "Mark Twain"
+  },
+  {
+    "text": "You must expect great things of yourself before you can do them.",
+    "author": "Michael Jordan"
+  },
+  {
+    "text": "If you get tired, learn to rest, not to quit.",
+    "author": "Banksy"
+  },
+  {
+    "text": "We must all suffer one of two things: the pain of discipline or the pain of regret.",
+    "author": "Jim Rohn"
+  },
+  {
+    "text": "It is not necessary to do extraordinary things to get extraordinary results.",
+    "author": "Warren Buffett"
+  },
+  {
+    "text": "Life is what happens when you're busy making other plans.",
+    "author": "John Lennon"
+  },
+  {
+    "text": "Life imposes things on you that you can't control, but you still have the choice of how you're going to live through this.",
+    "author": "Celine Dion"
+  },
+  {
+    "text": "Keep smiling, because life is a beautiful thing and there's so much to smile about.",
+    "author": "Marilyn Monroe"
+  },
+  {
+    "text": "Dream as if you'll live forever. Live as if you'll die today.",
+    "author": "James Dean"
+  },
+  {
+    "text": "It is better to be hated for what you are than to be loved for what you are not.",
+    "author": "Andre Gide"
+  },
+  {
+    "text": "Success is not how high you have climbed, but how you make a positive difference to the world.",
+    "author": "Roy T. Bennett"
+  },
+  {
+    "text": "You can never cross the ocean until you have the courage to lose sight of the shore.",
+    "author": "Christopher Columbus"
+  },
+  {
+    "text": "Don't judge each day by the harvest you reap but by the seeds that you plant.",
+    "author": "Robert Louis Stevenson"
+  },
+  {
+    "text": "Go confidently in the direction of your dreams. Live the life you have imagined.",
+    "author": "Henry David Thoreau"
+  },
+  {
+    "text": "Whether you think you can or you think you can't, you're right.",
+    "author": "Henry Ford"
+  },
+  {
+    "text": "The first and best victory is to conquer self.",
+    "author": "Plato"
+  },
+  {
+    "text": "You have not lived today until you have done something for someone who can never repay you.",
+    "author": "John Bunyan"
+  },
+  {
+    "text": "Success is to be measured not so much by the position that one has reached in life as by the obstacles which he has overcome.",
+    "author": "Booker T. Washington"
+  },
+  {
+    "text": "The best way to predict the future is to create it.",
+    "author": "Peter Drucker"
+  },
+  {
+    "text": "People who are crazy enough to think they can change the world, are the ones who do.",
+    "author": "Rob Siltanen"
+  },
+  {
+    "text": "Strength does not come from physical capacity. It comes from an indomitable will.",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "text": "The only cure for grief is action.",
+    "author": "George Henry Lewes"
+  },
+  {
+    "text": "When you cease to dream you cease to live.",
+    "author": "Malcolm Forbes"
+  },
+  {
+    "text": "The cave you fear to enter holds the treasure you seek.",
+    "author": "Joseph Campbell"
+  },
+  {
+    "text": "You're braver than you believe, stronger than you seem, and smarter than you think.",
+    "author": "A.A. Milne"
+  },
+  {
+    "text": "Only those who dare to fail greatly can ever achieve greatly.",
+    "author": "Robert F. Kennedy"
+  },
+  {
+    "text": "The difference between ordinary and extraordinary is that little extra.",
+    "author": "Jimmy Johnson"
+  },
+  {
+    "text": "You have power over your mind — not outside events. Realize this, and you will find strength.",
+    "author": "Marcus Aurelius"
+  },
+  {
+    "text": "The universe is not outside of you. Look inside yourself; everything that you want, you already are.",
+    "author": "Rumi"
+  },
+  {
+    "text": "The expert in anything was once a beginner.",
+    "author": "Helen Hayes"
+  },
+  {
+    "text": "The harder the conflict, the greater the triumph.",
+    "author": "George Washington"
+  },
+  {
+    "text": "And when you want something, all the universe conspires in helping you to achieve it.",
+    "author": "Paulo Coelho"
+  },
+  {
+    "text": "Failure will never overtake me if my determination to succeed is strong enough.",
+    "author": "Og Mandino"
+  },
+  {
+    "text": "The secret of change is to focus all of your energy not on fighting the old, but on building the new.",
+    "author": "Socrates"
+  },
+  {
+    "text": "Ask and it will be given to you; search, and you will find; knock and the door will be opened for you.",
+    "author": "Jesus"
+  },
+  {
+    "text": "Hardships often prepare ordinary people for an extraordinary destiny.",
+    "author": "C.S. Lewis"
+  },
+  {
+    "text": "Success isn't always about greatness. It's about consistency.",
+    "author": "Dwayne Johnson"
+  },
+  {
+    "text": "What we think, we become.",
+    "author": "Buddha"
+  },
+  {
+    "text": "Teach thy tongue to say, 'I do not know,' and thous shalt progress.",
+    "author": "Maimonides"
+  },
+  {
+    "text": "Strength does not come from winning. Your struggles develop your strengths.",
+    "author": "Arnold Schwarzenegger"
+  },
+  {
+    "text": "I am not a product of my circumstances. I am a product of my decisions.",
+    "author": "Stephen Covey"
+  },
+  {
+    "text": "We must believe that we have the capability to make such things happen.",
+    "author": "Coco Chanel"
+  },
+  {
+    "text": "You cannot shake hands with a clenched fist.",
+    "author": "Indira Gandhi"
+  },
+  {
+    "text": "Everything you've ever wanted is on the other side of fear.",
+    "author": "George Addair"
+  },
+  {
+    "text": "It is never too late to be what you might have been.",
+    "author": "George Eliot"
+  },
+  {
+    "text": "It's not whether you get knocked down, it's whether you get up.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "text": "The only person you should try to be better than is the person you were yesterday.",
+    "author": "Anonymous"
+  },
+  {
+    "text": "A year from now you may wish you had started today.",
+    "author": "Karen Lamb"
+  },
+  {
+    "text": "Believe in yourself and all that you are.",
+    "author": "Christian D. Larson"
+  },
+  {
+    "text": "Find ecstasy in life; the mere sense of living is joy enough.",
+    "author": "Emily Dickinson"
+  },
+  {
+    "text": "He who has a why to live can bear almost any how.",
+    "author": "Friedrich Nietzsche"
+  },
+  {
+    "text": "The only person you are destined to become is the person you decide to be.",
+    "author": "Ralph Waldo Emerson"
+  },
+  {
+    "text": "Many of life's failures are people who did not realize how close they were to success when they gave up.",
+    "author": "Thomas A. Edison"
+  },
+  {
+    "text": "Perseverance is not a long race; it is many short races one after the other.",
+    "author": "Walter Elliot"
+  },
+  {
+    "text": "Excellence is not a skill. It is an attitude.",
+    "author": "Ralph Marston"
+  },
+  {
+    "text": "When I stand before God at the end of my life, I would hope that I would not have a single bit of talent left and could say, I used everything you gave me.",
+    "author": "Erma Bombeck"
+  },
+  {
+    "text": "In the midst of chaos, there is also opportunity.",
+    "author": "Sun Tzu"
+  },
+  {
+    "text": "Life shrinks or expands in proportion to one's courage.",
+    "author": "Anais Nin"
+  },
+  {
+    "text": "The best way to find out if you can trust somebody is to trust them.",
+    "author": "Ernest Hemingway"
+  },
+  {
+    "text": "The question isn't who is going to let me; it's who is going to stop me.",
+    "author": "Ayn Rand"
+  },
+  {
+    "text": "The biggest risk is not taking any risk.",
+    "author": "Mark Zuckerberg"
+  },
+  {
+    "text": "Whoever is happy will make others happy too.",
+    "author": "Anne Frank"
+  },
+  {
+    "text": "It is better to fail in originality than to succeed in imitation.",
+    "author": "Herman Melville"
+  },
+  {
+    "text": "What you lack in talent can be made up with desire, hustle and giving 110% at all times.",
+    "author": "Don Zimmer"
+  },
+  {
+    "text": "Do one thing every day that scares you.",
+    "author": "Eleanor Roosevelt"
+  },
+  {
+    "text": "Whatever the mind can conceive and believe, it can achieve.",
+    "author": "Napoleon Hill"
+  },
+  {
+    "text": "Doubt kills more dreams than failure ever will.",
+    "author": "Suzy Kassem"
+  },
+  {
+    "text": "It does not matter how slowly you go as long as you do not stop.",
+    "author": "Confucius"
+  },
+  {
+    "text": "The breath is the bridge which connects life to consciousness.",
+    "author": "Thich Nhat Hanh"
+  },
+  {
+    "text": "I accumulated small but consistent habits that ultimately led to results that were unimaginable when I started.",
+    "author": "James Clear"
+  },
+  {
+    "text": "I have learned over the years that when one's mind is made up, this diminishes fear.",
+    "author": "Rosa Parks"
+  },
+  {
+    "text": "The way to get started is to quit talking and begin doing.",
+    "author": "Walt Disney"
+  },
+  {
+    "text": "Get busy living or get busy dying.",
+    "author": "Stephen King"
+  },
+  {
+    "text": "Shoot for the moon. Even if you miss, you'll land among the stars.",
+    "author": "Norman Vincent Peale"
+  },
+  {
+    "text": "The only way to achieve the impossible is to believe it is possible.",
+    "author": "Charles Kingsleigh"
+  },
+  {
+    "text": "The man who has confidence in himself gains the confidence of others.",
+    "author": "Hasidic Proverb"
+  },
+  {
+    "text": "I attribute my success to this: I never gave or took any excuse.",
+    "author": "Florence Nightingale"
+  },
+  {
+    "text": "Success is the sum of small efforts, repeated day in and day out.",
+    "author": "Robert Collier"
+  },
+  {
+    "text": "The moment you give up is the moment you let someone else win.",
+    "author": "Kobe Bryant"
+  },
+  {
+    "text": "Eighty percent of success is showing up.",
+    "author": "Woody Allen"
+  },
+  {
+    "text": "Be the change you wish to see in the world.",
+    "author": "Gandhi"
+  },
+  {
+    "text": "Fall seven times and stand up eight.",
+    "author": "Japanese Proverb"
+  },
+  {
+    "text": "Real difficulties can be overcome; it is only the imaginary ones that are unconquerable.",
+    "author": "Jean de la Bruyere"
+  },
+  {
+    "text": "Dream big and dare to fail.",
+    "author": "Norman Vaughan"
+  },
+  {
+    "text": "Patience is bitter, but its fruit is sweet.",
+    "author": "Jean-Jacques Rousseau"
+  },
+  {
+    "text": "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.",
+    "author": "Thomas Edison"
+  },
+  {
+    "text": "The only way to have a friend is to be one.",
+    "author": "Dale Carnegie"
+  },
+  {
+    "text": "The only limit to our realization of tomorrow is our doubts of today.",
+    "author": "Franklin D. Roosevelt"
+  },
+  {
+    "text": "Spread love everywhere you go.",
+    "author": "Mother Teresa"
+  },
+  {
+    "text": "Hard work beats talent when talent doesn't work hard.",
+    "author": "Tim Notke"
+  },
+  {
+    "text": "The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart.",
+    "author": "Helen Keller"
+  },
+  {
+    "text": "Motivation gets you going, but discipline keeps you growing.",
+    "author": "John C. Maxwell"
+  },
+  {
+    "text": "If you spend your whole life waiting for the storm, you'll never enjoy the sunshine.",
+    "author": "Morris West"
+  },
+  {
+    "text": "Don't settle for what life gives you; make life better and build something.",
+    "author": "Ashton Kutcher"
+  },
+  {
+    "text": "We generate fears while we sit. We overcome them by action.",
+    "author": "Dr. Henry Link"
+  },
+  {
+    "text": "Certain things catch your eye, but pursue only those that capture the heart.",
+    "author": "Ancient Indian Proverb"
+  },
+  {
+    "text": "What you get by achieving your goals is not as important as what you become by achieving your goals.",
+    "author": "Zig Ziglar"
+  },
+  {
+    "text": "Money and success don't change people; they merely amplify what is already there.",
+    "author": "Will Smith"
+  },
+  {
+    "text": "The roots of education are bitter, but the fruit is sweet.",
+    "author": "Aristotle"
+  },
+  {
+    "text": "The only way to make sense out of change is to plunge into it, move with it, and join the dance.",
+    "author": "Alan Watts"
+  },
+  {
+    "text": "If you hear a voice within you say 'you cannot paint,' then by all means paint and that voice will be silenced.",
+    "author": "Vincent Van Gogh"
+  },
+  {
+    "text": "A man is not finished when he is defeated. He is finished when he quits.",
+    "author": "Richard Nixon"
+  },
+  {
+    "text": "Success isn't owned. It's leased, and rent is due every day.",
+    "author": "J.J. Watt"
+  },
+  {
+    "text": "Always remember that you are absolutely unique. Just like everyone else.",
+    "author": "Margaret Mead"
+  },
+  {
+    "text": "There are no secrets to success. It is the result of preparation, hard work, and learning from failure.",
+    "author": "Colin Powell"
+  },
+  {
+    "text": "Keep your face always toward the sunshine and shadows will fall behind you.",
+    "author": "Walt Whitman"
+  },
+  {
+    "text": "Start where you are. Use what you have. Do what you can.",
+    "author": "Arthur Ashe"
+  },
+  {
+    "text": "Life is short, and it is here to be lived.",
+    "author": "Kate Winslet"
+  },
+  {
+    "text": "If you can't make a mistake, you can't make anything.",
+    "author": "Marva Collins"
+  },
+  {
+    "text": "If you look at what you have in life, you'll always have more.",
+    "author": "Oprah Winfrey"
+  },
+  {
+    "text": "However difficult life may seem, there is always something you can do and succeed at.",
+    "author": "Stephen Hawking"
+  },
+  {
+    "text": "It's fine to celebrate success, but it is more important to heed the lessons of failure.",
+    "author": "Bill Gates"
+  },
+  {
+    "text": "The only limit to the height of your achievements is the reach of your dreams and your willingness to work for them.",
+    "author": "Michelle Obama"
+  },
+  {
+    "text": "The most difficult thing is the decision to act, the rest is merely tenacity.",
+    "author": "Amelia Earhart"
+  },
+  {
+    "text": "Don't let what you cannot do interfere with what you can do.",
+    "author": "John Wooden"
+  },
+  {
+    "text": "Don't let yesterday take up too much of today.",
+    "author": "Will Rogers"
+  },
+  {
+    "text": "No man is free who is not master of himself.",
+    "author": "Epictetus"
+  },
+  {
+    "text": "You are in danger of living a life so comfortable and soft that you will die without ever realizing your true potential.",
+    "author": "David Goggins"
+  },
+  {
+    "text": "The road to success is always under construction.",
+    "author": "Lily Tomlin"
+  },
+  {
+    "text": "A wise man will make more opportunities than he finds.",
+    "author": "Francis Bacon"
+  },
+  {
+    "text": "You never really learn much from hearing yourself speak.",
+    "author": "George Clooney"
+  }
+]

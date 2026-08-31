@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "title": "Wake up and make the bed",
+    "category": "morning",
+    "priority": "low",
+    "completed": false
+  },
+  {
+    "id": 2,
+    "title": "Drink a glass of water right after waking up",
+    "category": "morning",
+    "priority": "medium",
+    "completed": false
+  },
+  {
+    "id": 3,
+    "title": "Do 10 minutes of stretching or light exercise",
+    "category": "morning",
+    "priority": "medium",
+    "completed": false
+  },
+  {
+    "id": 4,
+    "title": "Take a shower and get dressed",
+    "category": "morning",
+    "priority": "high",
+    "completed": false
+  },
+  {
+    "id": 5,
+    "title": "Eat a healthy breakfast",
+    "category": "morning",
+    "priority": "high",
+    "completed": false
+  },
+  {
+    "id": 6,
+    "title": "Brush teeth and floss",
+    "category": "morning",
+    "priority": "high",
+    "completed": false
+  },
+  {
+    "id": 7,
+    "title": "Review today's schedule and priorities",
+    "category": "morning",
+    "priority": "medium",
+    "completed": false
+  },
+  {
+    "id": 8,
+    "title": "Tidy up the room or workspace",
+    "category": "morning",
+    "priority": "low",
+    "completed": false
+  },
+  {
+    "id": 9,
+    "title": "Check emails and messages",
+    "category": "work",
+    "priority": "medium",
+    "completed": false
+  },
+  {
+    "id": 10,
+    "title": "Attend morning meeting or standup",
+    "category": "work",
+    "priority": "high",
+    "completed": false
+  },
+  {
+    "id": 11,
+    "title": "Work on the most important task of the day",
+    "category": "work",
+    "priority": "high",
+    "completed": false
+  },
+  {
+    "id": 12,
+    "title": "Take a 5-minute break every hour",
+    "category": "work",
+    "priority": "medium",
+    "completed": false
+  },
+  {
+    "id": 13,
+    "title": "Respond to urgent messages and calls",
+    "category": "work",
+    "priority": "medium",
+    "completed": false
+  },
+  {
+    "id": 14,
+    "title": "Update progress on current projects",
+    "category": "work",
+    "priority": "low",
+    "completed": false
+  },
+  {
+    "id": 15,
+    "title": "Plan tomorrow's to-do list",
+    "category": "work",
+    "priority": "medium",
+    "completed": false
+  },
+  {
+    "id": 16,
+    "title": "Organize desktop and clean up files",
+    "category": "work",
+    "priority": "low",
+    "completed": false
+  },
+  {
+    "id": 17,
+    "title": "Go for a 20-minute walk outside",
+    "category": "health",
+    "priority": "medium",
+    "completed": false
+  },
+  {
+    "id": 18,
+    "title": "Do 30 minutes of workout or exercise",
+    "category": "health",
+    "priority": "high",
+    "completed": false
+  },
+  {
+    "id": 19,
+    "title": "Take any prescribed vitamins or medication",
+    "category": "health",
+    "priority": "high",
+    "completed": false
+  },
+  {
+    "id": 20,
+    "title": "Stretch for 5 minutes after sitting for long periods",
+    "category": "health",
+    "priority": "medium",
+    "completed": false
+  },
+  {
+    "id": 21,
+    "title": "Eat a balanced lunch away from the desk",
+    "category": "health",
+    "priority": "high",
+    "completed": false
+  },
+  {
+    "id": 22,
+    "title": "Drink at least 2 liters of water throughout the day",
+    "category": "health",
+    "priority": "medium",
+    "completed": false
+  },
+  {
+    "id": 23,
+    "title": "Practice 5 minutes of deep breathing or meditation",
+    "category": "health",
+    "priority": "low",
+    "completed": false
+  },
+  {
+    "id": 24,
+    "title": "Get 7-8 hours of sleep tonight",
+    "category": "health",
+    "priority": "high",
+    "completed": false
+  },
+  {
+    "id": 25,
+    "title": "Call or message a family member",
+    "category": "personal",
+    "priority": "medium",
+    "completed": false
+  },
+  {
+    "id": 26,
+    "title": "Spend quality time with friends or partner",
+    "category": "personal",
+    "priority": "medium",
+    "completed": false
+  },
+  {
+    "id": 27,
+    "title": "Read 10 pages of a book",
+    "category": "personal",
+    "priority": "low",
+    "completed": false
+  },
+  {
+    "id": 28,
+    "title": "Practice a hobby for 30 minutes",
+    "category": "personal",
+    "priority": "low",
+    "completed": false
+  },
+  {
+    "id": 29,
+    "title": "Write down three things you're grateful for",
+    "category": "personal",
+    "priority": "low",
+    "completed": false
+  },
+  {
+    "id": 30,
+    "title": "Limit social media to 30 minutes today",
+    "category": "personal",
+    "priority": "medium",
+    "completed": false
+  },
+  {
+    "id": 31,
+    "title": "Do the dishes after meals",
+    "category": "chores",
+    "priority": "medium",
+    "completed": false
+  },
+  {
+    "id": 32,
+    "title": "Take out the trash",
+    "category": "chores",
+    "priority": "medium",
+    "completed": false
+  },
+  {
+    "id": 33,
+    "title": "Do a load of laundry",
+    "category": "chores",
+    "priority": "medium",
+    "completed": false
+  },
+  {
+    "id": 34,
+    "title": "Vacuum or sweep the floor",
+    "category": "chores",
+    "priority": "low",
+    "completed": false
+  },
+  {
+    "id": 35,
+    "title": "Wipe down kitchen counters and table",
+    "category": "chores",
+    "priority": "low",
+    "completed": false
+  },
+  {
+    "id": 36,
+    "title": "Make the grocery shopping list",
+    "category": "chores",
+    "priority": "medium",
+    "completed": false
+  },
+  {
+    "id": 37,
+    "title": "Water the plants",
+    "category": "chores",
+    "priority": "low",
+    "completed": false
+  },
+  {
+    "id": 38,
+    "title": "Pay bills and manage finances",
+    "category": "chores",
+    "priority": "high",
+    "completed": false
+  },
+  {
+    "id": 39,
+    "title": "Study for 45 minutes",
+    "category": "learning",
+    "priority": "high",
+    "completed": false
+  },
+  {
+    "id": 40,
+    "title": "Watch one educational video or tutorial",
+    "category": "learning",
+    "priority": "medium",
+    "completed": false
+  },
+  {
+    "id": 41,
+    "title": "Practice a new language for 20 minutes",
+    "category": "learning",
+    "priority": "medium",
+    "completed": false
+  },
+  {
+    "id": 42,
+    "title": "Review notes from yesterday's learning session",
+    "category": "learning",
+    "priority": "low",
+    "completed": false
+  },
+  {
+    "id": 43,
+    "title": "Complete one online course module",
+    "category": "learning",
+    "priority": "medium",
+    "completed": false
+  },
+  {
+    "id": 44,
+    "title": "Write a short summary of what you learned today",
+    "category": "learning",
+    "priority": "low",
+    "completed": false
+  },
+  {
+    "id": 45,
+    "title": "Cook a healthy dinner at home",
+    "category": "evening",
+    "priority": "high",
+    "completed": false
+  },
+  {
+    "id": 46,
+    "title": "Eat dinner without screens",
+    "category": "evening",
+    "priority": "medium",
+    "completed": false
+  },
+  {
+    "id": 47,
+    "title": "Take a relaxing shower or bath",
+    "category": "evening",
+    "priority": "medium",
+    "completed": false
+  },
+  {
+    "id": 48,
+    "title": "Prepare clothes and bag for tomorrow",
+    "category": "evening",
+    "priority": "medium",
+    "completed": false
+  },
+  {
+    "id": 49,
+    "title": "Wind down 30 minutes before bed (no screens)",
+    "category": "evening",
+    "priority": "medium",
+    "completed": false
+  },
+  {
+    "id": 50,
+    "title": "Set alarm for tomorrow morning",
+    "category": "evening",
+    "priority": "high",
+    "completed": false
+  }
+]
