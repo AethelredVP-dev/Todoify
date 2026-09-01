@@ -1,11 +1,12 @@
 import { Card, CardContent, Chip, Fab, Grid, Stack, Typography } from "@mui/material";
-import { deleteTask } from "@/features/TaskSlice";
-import { Bin } from "@keyline-icons/react";
-import { Pen } from "@keyline-icons/react";
-import Link from "next/link";
+import { deleteTask, toggleTaskStatus } from "@/features/TaskSlice";
+import { Bin, Pen, Check, Clock } from "@keyline-icons/react";
+
 import { useDispatch } from "react-redux";
 
-import { categoryProps } from "../utils/CategoryProps";
+import { categoryProps } from "@/lib/utils/CategoryProps";
+import { useRouter } from "next/navigation";
+
 
 
 function TaskCard({ task }) {
@@ -14,6 +15,7 @@ function TaskCard({ task }) {
         if (level === "medium") return "warning";
         return "success";
     };
+    const router = useRouter()
 
     const dispatch = useDispatch();
     return (
@@ -32,9 +34,35 @@ function TaskCard({ task }) {
             >
                 <CardContent>
                     <Stack spacing={2}>
-                        <Typography variant="h6" component="h2">
-                            {task.name}
-                        </Typography>
+                        <Stack
+                            direction="row"
+                            justifyContent="space-between"
+                            alignItems="flex-start"
+                            spacing={2}
+                        >
+                            <Typography
+                                variant="h6"
+                                component="h2"
+                                sx={{
+                                    flex: 1,
+                                    fontWeight: 700,
+                                    textDecoration: task.completed ? "line-through" : "none",
+                                    opacity: task.completed ? 0.65 : 1,
+                                    overflowWrap: "anywhere",
+                                }}
+                            >
+                                {task.name}
+                            </Typography>
+
+                            <Chip
+                                size="small"
+                                label={task.completed ? "Completed" : "Active"}
+                                color={task.completed ? "success" : "primary"}
+                                variant={task.completed ? "filled" : "outlined"}
+                                icon={task.completed ? <Check /> : <Clock />}
+                                sx={{ flexShrink: 0 }}
+                            />
+                        </Stack>
 
                         <Stack
                             direction="row"
@@ -54,11 +82,12 @@ function TaskCard({ task }) {
                                 size="small"
                                 color={importanceColor(task.importance)}
                             />
+
                         </Stack>
 
                         <Stack direction="row" spacing={1} sx={{ justifyContent: "flex-start" }}>
                             <Fab
-                                size="small"
+                                size="medium"
                                 color="error"
                                 variant="extended"
                                 onClick={() => dispatch(deleteTask(task.id))}
@@ -68,15 +97,22 @@ function TaskCard({ task }) {
                                 <Typography variant="caption">Delete task</Typography>
                             </Fab>
                             <Fab
-
-                                component={Link}
-                                href={`/EditTask?id=${task.id}`}
-                                size="small"
+                                onClick={() => router.push(`/EditTask?id=${task.id}`)}
+                                size="medium"
                                 variant="extended"
                                 color="primary"
                             >
                                 <Pen />
                                 <Typography variant="caption">Edit task</Typography>
+                            </Fab>
+                            <Fab
+                                variant="extended"
+                                size="medium"
+                                color={task.completed ? "success" : "primary"}
+                                onClick={() => dispatch(toggleTaskStatus(task.id))}
+                            >
+                                {task.completed ? "Reopen task" : "Mark completed"}
+                                {task.completed ? <Clock /> : <Check />}
                             </Fab>
                         </Stack>
                     </Stack>

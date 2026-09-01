@@ -34,9 +34,22 @@ export const taskSlice = createSlice({
 
       Object.assign(task, changes);
     },
+    toggleTaskStatus: (state, action) => {
+      const task = state.tasks.find((item) => item.id === action.payload);
+
+      if (!task) return;
+
+      task.completed = !task.completed;
+    },
   },
 });
 
-export const { setValues, resetValues, addTask, deleteTask, editTask } =
-  taskSlice.actions;
+export const {
+  setValues,
+  resetValues,
+  addTask,
+  deleteTask,
+  editTask,
+  toggleTaskStatus,
+} = taskSlice.actions;
 export default taskSlice.reducer;

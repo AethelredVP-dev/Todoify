@@ -42,7 +42,15 @@ export default function AddTaskPage() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!values.name.trim()) return; // guard against empty names
-    dispatch(addTask({ id: crypto.randomUUID(), ...values }));
+    dispatch(
+      addTask({
+        id: crypto.randomUUID(),
+        name: values.name.trim(),
+        category: values.category,
+        importance: values.importance,
+        completed: false,
+      }),
+    );
     dispatch(resetValues());
     router.push("/");
   };
