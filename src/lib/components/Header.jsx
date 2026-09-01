@@ -1,8 +1,10 @@
 import { Box, Typography } from "@mui/material";
+import ThemeButton from "./ThemeButton";
 
 function Header() {
     return (
-        <Box sx={{ textAlign: "center" }}>
+        <Box component="header" sx={{ textAlign: "center" }}>
+            <ThemeButton />
             <Typography variant="h3">
                 Todoify
             </Typography>

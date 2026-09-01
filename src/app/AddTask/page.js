@@ -87,6 +87,8 @@ export default function AddTaskPage() {
               <MenuItem value="None">None</MenuItem>
               <MenuItem value="work">Work</MenuItem>
               <MenuItem value="personal">Personal</MenuItem>
+              <MenuItem value="learning">Learning</MenuItem>
+              <MenuItem value="health">Health</MenuItem>
             </TextField>
 
             <TextField

@@ -1,7 +1,6 @@
 import InitColorSchemeScript from "@mui/material/InitColorSchemeScript";
 import Providers from "./providers";
 import "./globals.css";
-import Header from "@/lib/components/Header";
 
 export const metadata = {
   title: "Kanban",
@@ -14,10 +13,7 @@ export default function RootLayout({ children }) {
       <body>
         {/* Runs before React, sets the scheme class on <html> — no dark-mode flicker [36] */}
         <InitColorSchemeScript attribute="class" defaultMode="dark" />
-        <Providers>
-          <Header />
-          {children}
-        </Providers>
+        <Providers>{children}</Providers>
       </body>
     </html>
   );

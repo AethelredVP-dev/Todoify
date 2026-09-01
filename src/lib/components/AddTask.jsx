@@ -3,7 +3,7 @@ import { useRouter } from "next/navigation";
 
 export default function AddTaskButton() {
     const router = useRouter()
-    const addTask = (e) => {
+    const addTask = () => {
         router.push("/AddTask")
     }
     return (

@@ -11,7 +11,10 @@ export const taskSlice = createSlice({
   reducers: {
     // Merge partial fields so callers can update one input at a time
     setValues: (state, action) => {
-      state.values = { ...state.values, ...action.payload };
+      state.values = {
+        ...state.values,
+        ...action.payload,
+      };
     },
     resetValues: (state) => {
       state.values = initialState.values;
@@ -22,9 +25,18 @@ export const taskSlice = createSlice({
     deleteTask: (state, action) => {
       state.tasks = state.tasks.filter((task) => task.id !== action.payload);
     },
+    editTask: (state, action) => {
+      const { id, changes } = action.payload;
+
+      const task = state.tasks.find((item) => item.id === id);
+
+      if (!task) return;
+
+      Object.assign(task, changes);
+    },
   },
 });
 
-export const { setValues, resetValues, addTask, deleteTask } =
+export const { setValues, resetValues, addTask, deleteTask, editTask } =
   taskSlice.actions;
 export default taskSlice.reducer;
