@@ -83,6 +83,10 @@ export default function AddTaskPage() {
               value={values.name}
               onChange={handleChange}
               placeholder={suggestions[index % suggestions.length]}
+              error={values.name.trim() === ""}
+              helperText={
+                values.name.trim() === "" ? "Task name cannot be empty" : ""
+              }
             />
 
             <TextField

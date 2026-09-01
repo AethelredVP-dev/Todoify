@@ -7,6 +7,7 @@ import theme from "@/lib/ui/theme";
 import { Provider } from "react-redux";
 import { store } from "@/store/Store";
 import Header from "@/lib/components/Header";
+import TaskStorage from "@/lib/components/TaskStorage";
 
 export default function Providers({ children }) {
   return (
@@ -14,7 +15,10 @@ export default function Providers({ children }) {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <Header />
-        <Provider store={store}>{children}</Provider>
+        <Provider store={store}>
+          <TaskStorage />
+          {children}
+        </Provider>
       </ThemeProvider>
     </AppRouterCacheProvider>
   );

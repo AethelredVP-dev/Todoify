@@ -1,15 +1,25 @@
 "use client";
 
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
+import { useState } from "react";
 
 import AddTask from "@/lib/components/AddTask";
 import Footer from "@/lib/components/Footer";
 import { Box, Container, Grid, Stack, Typography } from "@mui/material";
 import NoTasks from "@/lib/components/NoTasks";
 import TaskCard from "@/lib/components/TaskCard";
+import TaskFilter from "@/lib/components/TaskFilter";
 
 export default function Home() {
+  const [statusFilter, setStatusFilter] = useState("all");
   const tasks = useSelector((state) => state.task.tasks);
+
+  const visibleTasks = tasks.filter((task) => {
+    if (statusFilter === "pending") return !task.completed;
+    if (statusFilter === "done") return task.completed;
+
+    return true;
+  });
 
   return (
     <Box
@@ -46,6 +56,10 @@ export default function Home() {
           <Typography color="text.secondary">
             Stay focused. Finish what matters.
           </Typography>
+          <TaskFilter
+            statusFilter={statusFilter}
+            onStatusFilterChange={setStatusFilter}
+          />
 
           <AddTask />
         </Stack>
@@ -58,8 +72,8 @@ export default function Home() {
             spacing={2}
             sx={{ width: "100%", maxWidth: 1100, justifyContent: "center" }}
           >
-            {tasks.map((task, index) => (
-              <TaskCard key={index} task={task} />
+            {visibleTasks.map((task, index) => (
+              <TaskCard task={task} key={index} />
             ))}
           </Grid>
         )}

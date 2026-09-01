@@ -88,7 +88,7 @@ export default function EditTaskPage() {
 
   if (!task) {
     return (
-      <Stack spacing={2} alignItems="center" sx={{ py: 8 }}>
+      <Stack spacing={2} sx={{ py: 8, alignItems: "center" }}>
         <Typography variant="h5">Task not found.</Typography>
 
         <Typography color="text.secondary">

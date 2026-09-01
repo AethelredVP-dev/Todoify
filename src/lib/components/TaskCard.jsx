@@ -36,8 +36,7 @@ function TaskCard({ task }) {
                     <Stack spacing={2}>
                         <Stack
                             direction="row"
-                            justifyContent="space-between"
-                            alignItems="flex-start"
+                            sx={{ justifyContent: "space-between", alignItems: "center" }}
                             spacing={2}
                         >
                             <Typography
@@ -94,7 +93,7 @@ function TaskCard({ task }) {
                                 sx={{ alignSelf: "flex-start" }}
                             >
                                 <Bin />
-                                <Typography variant="caption">Delete task</Typography>
+                                <Typography variant="caption">Delete</Typography>
                             </Fab>
                             <Fab
                                 onClick={() => router.push(`/EditTask?id=${task.id}`)}
@@ -103,7 +102,7 @@ function TaskCard({ task }) {
                                 color="primary"
                             >
                                 <Pen />
-                                <Typography variant="caption">Edit task</Typography>
+                                <Typography variant="caption">Edit</Typography>
                             </Fab>
                             <Fab
                                 variant="extended"
@@ -111,7 +110,8 @@ function TaskCard({ task }) {
                                 color={task.completed ? "success" : "primary"}
                                 onClick={() => dispatch(toggleTaskStatus(task.id))}
                             >
-                                {task.completed ? "Reopen task" : "Mark completed"}
+                                {task.completed ? "Redo" : "Done"}
+
                                 {task.completed ? <Clock /> : <Check />}
                             </Fab>
                         </Stack>
