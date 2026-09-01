@@ -99,7 +99,7 @@ function TaskCard({ task }) {
                                 onClick={() => router.push(`/EditTask?id=${task.id}`)}
                                 size="medium"
                                 variant="extended"
-                                color="primary"
+                                color="info"
                             >
                                 <Pen />
                                 <Typography variant="caption">Edit</Typography>
