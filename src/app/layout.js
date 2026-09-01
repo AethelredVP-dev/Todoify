@@ -3,7 +3,7 @@ import Providers from "./providers";
 import "./globals.css";
 
 export const metadata = {
-  title: "Kanban",
+  title: "Todoify",
   description: "A Todoist-style productivity app",
 };
 

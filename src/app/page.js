@@ -2,13 +2,9 @@
 
 import { useSelector } from "react-redux";
 import { useState } from "react";
-
-import AddTask from "@/lib/components/AddTask";
 import Footer from "@/lib/components/Footer";
 import { Box, Container, Grid, Stack, Typography } from "@mui/material";
-import NoTasks from "@/lib/components/NoTasks";
-import TaskCard from "@/lib/components/TaskCard";
-import TaskFilter from "@/lib/components/TaskFilter";
+import { TaskCard, TaskFilter, AddTask, NoTasks } from "@/lib/components/Task";
 
 export default function Home() {
   const [statusFilter, setStatusFilter] = useState("all");

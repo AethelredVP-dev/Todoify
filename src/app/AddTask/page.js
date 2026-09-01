@@ -62,7 +62,7 @@ export default function AddTaskPage() {
         display: "grid",
         placeItems: "center",
         p: 3,
-        bgcolor: "background.default",
+        bgcolor: "transparent",
       }}
     >
       <Box sx={{ width: "100%", maxWidth: 520 }}>

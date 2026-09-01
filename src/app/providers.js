@@ -7,7 +7,7 @@ import theme from "@/lib/ui/theme";
 import { Provider } from "react-redux";
 import { store } from "@/store/Store";
 import Header from "@/lib/components/Header";
-import TaskStorage from "@/lib/components/TaskStorage";
+import TaskStorage from "@/lib/components/Task/TaskStorage";
 
 export default function Providers({ children }) {
   return (

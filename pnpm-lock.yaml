@@ -47,6 +47,9 @@ importers:
       animated-text-letters:
         specifier: ^2.1.10
         version: 2.1.10
+      framer-motion:
+        specifier: ^13.1.1
+        version: 13.1.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       motion:
         specifier: ^13.1.1
         version: 13.1.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
